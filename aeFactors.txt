@@ -1,0 +1,15 @@
+hoptime =1:== [0.02 0.1]
+rmSilence =1:== {'null','bdm','sid'}
+segmentation_train =2:== [0 1]
+segmentation_obs =2:=3/2= {'sample','class'}
+segmentation_ftrs2use =2:=3/2= {'logmel','mfccD2'}
+features =3:== {'logmel','mfcc','mfccD1','mfccD2','gbfb','logmel_mfcc'}
+norm_1 =4:== {'null','stand','L1','L2','heq'}
+ftrsSel =4:== {'null','pca_90','lda_99','lda_100'}
+classif_method =4:== {'knn','lda_lin','lda_quad'}
+gamma =4:=9/[2]= [0 .25 .5]
+nbKnn =5:=9/1= [5 10 20]
+dist =5:=9/1= {'euclidean','seuclidean','cosine'}
+soundIndex =5:4== [1:11]
+bgDetection =4:== {'null','bdm','sid'}
+rmBg =4:== [0 1]

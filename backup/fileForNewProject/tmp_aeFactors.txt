@@ -1,0 +1,14 @@
+hoptime =1:== [0.02 0.1]
+rmSilence =1:== {'null','bdm','sid'}
+segmentation_train =2:== [0 1]
+segmentation_obs =2:=3/2= {'sample','class'}
+segmentation_ftrs2use =2:=3/2= {'mel','logmel','mfcc','gbfb'}
+features =3:== {'logmel_mfcc_gbfb','logmel','mfcc','gbfb'}
+norm =3:== {'null','pca_95','L1','L2'}
+classif_method =3:== {'hmm','randomForest','knn'}
+classif_seed =3:3=8/1= [0:10]
+hmm_settings =3:3=8/1= {'L2R_2','L2R_3','L2R_4','full_2','full_3','full_4','fullInt_4'}
+randomForest_nbTree =3:3=8/2= [10 30]
+soundIndex =4:4== [1:11]
+bgDetection =4:== {'null','bdm','sid'}
+rmBg =4:== [0 1]
